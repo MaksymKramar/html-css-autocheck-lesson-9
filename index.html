@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Задание 1 Position - элементы вне потока. -->
+    <div class="container">
+        <div class="box">
+            <span>x</span>
+        </div>
+    </div>
+    <!-- Задание 2 Position: relative vs margin. -->
+    <div class="container-fluid">
+        <section>
+            <h2>Инлайн блоки</h2>
+            <div class="container">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+            <div class="container">
+                <div class="box">4</div>
+                <div class="box by-margin">margin</div>
+                <div class="box">6</div>
+            </div>
+            <div class="container">
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+            </div>
+        </section>
+        <section>
+            <h2>Инлайн блоки</h2>
+            <div class="container">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+            <div class="container">
+                <div class="box">4</div>
+                <div class="box by-position">relative</div>
+                <div class="box">6</div>
+            </div>
+            <div class="container">
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+            </div>
+        </section>
+    </div>
+    <!-- Задание 3 Position: relative vs margin 2.0 -->
+    <div class="container-fluid">
+        <section>
+            <h2>Flex</h2>
+            <div class="container display-flex">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+            <div class="container display-flex">
+                <div class="box">4</div>
+                <div class="box by-margin">margin</div>
+                <div class="box">6</div>
+            </div>
+            <div class="container display-flex">
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+            </div>
+        </section>
+        <section>
+            <h2>Flex</h2>
+            <div class="container display-flex">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+            <div class="container display-flex">
+                <div class="box">4</div>
+                <div class="box  by-position">relative</div>
+                <div class="box">6</div>
+            </div>
+            <div class="container display-flex">
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+            </div>
+        </section>
+    </div>
+    <!-- Задание 4 Position: fixed. -->
+    <header id="up">
+        <h2>Header</h2>
+    </header>
+    <main></main>
+    <footer id="down">
+        <h2>Footer</h2>
+    </footer>
+    <a href="#up" class="page-nav up">
+        &#11014;
+    </a>
+    <a href="#down" class="page-nav down">
+        &#11015;
+    </a>
+    <!-- Задание 5 Position: fixed. Модальное окно. -->
+    <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Positioning" target="_blank"
+        rel="noopener noreferrer">
+        Переход к разделу документации: "Позиционирование"
+    </a>
+    <div class="modal">
+        <div class="box">
+            <p>Пример размещения модального окна.</p>
+            <button class="btn">Ok</button>
+        </div>
+    </div>
+    <!-- Задание 6 Position: sticky. -->
+    <header>
+        <h1>Sticky</h1>
+    </header>
+    <div class="container">
+        <main>
+            <h2>HTML tags</h2>
+            <ul>
+                <li class="letter">A</li>
+                <li>a</li>
+                <li>abbr</li>
+                <li>address</li>
+                <li>area</li>
+                <li>article</li>
+                <li>aside</li>
+                <li>audio</li>
+            </ul>
+            <ul>
+                <li class="letter">B</li>
+                <li>b</li>
+                <li>base</li>
+                <li>bdi</li>
+                <li>bdo</li>
+                <li>blockquote</li>
+                <li>body</li>
+                <li>button</li>
+            </ul>
+            <ul>
+                <li class="letter">C</li>
+                <li>canvas</li>
+                <li>caption</li>
+                <li>cite</li>
+                <li>code</li>
+                <li>col</li>
+                <li>colgroup</li>
+            </ul>
+            <ul>
+                <li class="letter">D</li>
+                <li>data</li>
+                <li>datalist</li>
+                <li>dd</li>
+                <li>del</li>
+                <li>details</li>
+                <li>dfn</li>
+                <li>div</li>
+                <li>dl</li>
+                <li>dt</li>
+            </ul>
+            <ul>
+                <li class="letter">E</li>
+                <li>em</li>
+                <li>embed</li>
+            </ul>
+            <ul>
+                <li class="letter">F</li>
+                <li>fieldset</li>
+                <li>figcaption</li>
+                <li>figure</li>
+                <li>footer</li>
+                <li>form</li>
+            </ul>
+            <ul>
+                <li class="letter">H</li>
+                <li>h1 - h6</li>
+                <li>head</li>
+                <li>header</li>
+                <li>hr</li>
+                <li>html</li>
+            </ul>
+            <ul>
+                <li class="letter">I</li>
+                <li>i</li>
+                <li>iframe</li>
+                <li>img</li>
+                <li>input</li>
+                <li>ins</li>
+            </ul>
+            <ul>
+                <li class="letter">K</li>
+                <li>kbd</li>
+            </ul>
+            <ul>
+                <li class="letter">L</li>
+                <li>label</li>
+                <li>legend</li>
+                <li>li</li>
+                <li>link</li>
+            </ul>
+            <ul>
+                <li class="letter">M</li>
+                <li>main</li>
+                <li>map</li>
+                <li>mark</li>
+                <li>meta</li>
+                <li>meter</li>
+            </ul>
+            <ul>
+                <li class="letter">N</li>
+                <li>nav</li>
+                <li>noscript</li>
+            </ul>
+            <ul>
+                <li class="letter">O</li>
+                <li>object</li>
+                <li>ol</li>
+                <li>optgroup</li>
+                <li>option</li>
+                <li>output</li>
+            </ul>
+            <ul>
+                <li class="letter">P</li>
+                <li>p</li>
+                <li>param</li>
+                <li>picture</li>
+                <li>pre</li>
+                <li>progress</li>
+            </ul>
+            <ul>
+                <li class="letter">Q</li>
+                <li>q</li>
+            </ul>
+            <ul>
+                <li class="letter">R</li>
+                <li>rb</li>
+                <li>rp</li>
+                <li>rt</li>
+                <li>rtc</li>
+                <li>ruby</li>
+            </ul>
+            <ul>
+                <li class="letter">S</li>
+                <li>s</li>
+                <li>samp</li>
+                <li>script</li>
+                <li>section</li>
+                <li>select</li>
+                <li>slot</li>
+                <li>small</li>
+                <li>source</li>
+                <li>span</li>
+                <li>strong</li>
+                <li>style</li>
+                <li>sub</li>
+                <li>summary</li>
+                <li>sup</li>
+            </ul>
+            <ul>
+                <li class="letter">T</li>
+                <li>table</li>
+                <li>tbody</li>
+                <li>td</li>
+                <li>template</li>
+                <li>textarea</li>
+                <li>tfoot</li>
+                <li>th</li>
+                <li>thead</li>
+                <li>time</li>
+                <li>title</li>
+                <li>tr</li>
+                <li>track</li>
+            </ul>
+            <ul>
+                <li class="letter">U</li>
+                <li>u</li>
+                <li>ul</li>
+            </ul>
+            <ul>
+                <li class="letter">V</li>
+                <li>var</li>
+                <li>video</li>
+            </ul>
+            <ul>
+                <li class="letter">W</li>
+                <li>wbr</li>
+            </ul>
+        </main>
+    </div>
+    <!-- Задание 7 Absolute -->
+    <div class="container-outer psr">
+        <div class="container">
+            <div class="box">2</div>
+        </div>
+    </div>
+    <div class="container-outer">
+        <div class="container psr">
+            <div class="box">3</div>
+        </div>
+    </div>
+    <div class="box">1</div>
+    <!-- Задание 8 z-index -->
+    <div class="box alfa">
+        <div class="inner"></div>
+    </div>
+    <div class="box beta">
+        <div class="inner"></div>
+    </div>
+    <div class="box gamma">
+        <div class="inner"></div>
+    </div>
+
+</body>
+</html>
